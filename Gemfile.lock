@@ -63,6 +63,7 @@ GEM
     ansi (1.5.0)
     autoprefixer-rails (10.2.4.0)
       execjs
+    bcrypt (3.1.16)
     bindex (0.8.1)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -114,7 +115,7 @@ GEM
     lumberjack (1.2.8)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.0)
+    marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.0.3)
     minitest (5.14.4)
@@ -223,6 +224,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bcrypt (>= 3.1.12)
   bootstrap-sass (>= 3.3.7)
   byebug (>= 9.0.6)
   coffee-rails (>= 4.2.2)
